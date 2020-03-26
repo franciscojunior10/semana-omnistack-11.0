@@ -9,5 +9,21 @@ module.exports = {
             .select('*');
 
         return res.json(incidents);
+    },
+
+    async show(req, res) {
+        const { id } = req.params;
+        const ong_id = req.headers.authorization;
+        
+        const incident = await connection('incidents')
+            .where('id', id)
+            .select('*')
+            .first()
+
+        if (incident.ong_id !== ong_id) {
+            return res.status(401).json({ error: 'Operação não permetida' });
+        }
+        
+        return res.json(incident);
     }
 }

@@ -66,6 +66,14 @@
     background: #FFF;
 }
 
+.profile-container ul li a {
+    position: absolute;
+    right: 50px;
+    top: 24px;
+    border: 0;
+    background: #FFF;
+}
+
 .profile-container ul li button:hover {
     opacity: 0.8;
 }
