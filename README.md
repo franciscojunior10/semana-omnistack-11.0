@@ -27,6 +27,9 @@
 ##### - Tela Editar um Caso:
 ![tela_de_editar](https://user-images.githubusercontent.com/33940202/77810361-dcba4900-7072-11ea-9710-15b79bbfaa5f.png)
 
+##### - Tela Not Found:
+![notfound](https://user-images.githubusercontent.com/33940202/77977520-47b78a00-72d6-11ea-9edc-c5c98c90d7bb.png)
+
 # Back-end :clipboard::
 ##### Desenvolvido com [Node.js](https://nodejs.org/en/)
 ##### 1. Ativação do ambiente:
